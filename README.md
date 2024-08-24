@@ -2,23 +2,6 @@
 
 _**Mr CarWash & Parking** es una aplicación móvil diseñada para facilitar la gestión de estacionamientos y servicios de lavado de autos. Esta aplicación permite a los administradores optimizar el control de sus instalaciones, gestionar la ocupación de los espacios, y coordinar los servicios de limpieza de vehículos, todo desde una plataforma eficiente._
 
-## Comenzando 🚀
-
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Despliegue** para conocer como desplegar el proyecto.
-
-
-### Pre-requisitos 📋
-
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-- **Node.js**: Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu sistema.
-- **Android Studio** o **Xcode**: Dependiendo si deseas ejecutar la aplicación en Android o iOS.
-- **React Native**: Es necesario para iniciar y gestionar tu proyecto React Native. Puedes instalarlo globalmente con npm.
-- **Git**: Para clonar el repositorio.
-
-
 ## Funcionalidades ⚙️
 
 _Explicar de que forma trabajará la aplicación_
