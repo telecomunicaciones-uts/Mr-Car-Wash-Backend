@@ -1,5 +1,7 @@
 # Mr CarWash & Parking
 
+![Logo](https://github.com/user-attachments/assets/c7ccd829-0e98-4c36-9944-556a00669ab0)
+
 _**Mr CarWash & Parking** It is a mobile application designed to facilitate the management of parking lots and car wash services. This application allows administrators to optimize the control of their facilities, manage the occupancy of spaces, and coordinate vehicle cleaning services, all from an efficient platform.._
 
 ## Funtionalities ⚙️
