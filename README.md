@@ -1,14 +1,14 @@
 # Mr CarWash & Parking
 
-_**Mr CarWash & Parking** es una aplicación móvil diseñada para facilitar la gestión de estacionamientos y servicios de lavado de autos. Esta aplicación permite a los administradores optimizar el control de sus instalaciones, gestionar la ocupación de los espacios, y coordinar los servicios de limpieza de vehículos, todo desde una plataforma eficiente._
+_**Mr CarWash & Parking** It is a mobile application designed to facilitate the management of parking lots and car wash services. This application allows administrators to optimize the control of their facilities, manage the occupancy of spaces, and coordinate vehicle cleaning services, all from an efficient platform.._
 
-## Funcionalidades ⚙️
+## Funtionalities ⚙️
 
-_Explicar de que forma trabajará la aplicación_
+_Explain how the application will work_
 
-### Relación de la base de datos 🔩
+### Database relationship 🔩
 
-_Explicar cómo funciona la base de datos y qué relaciones existen entre las tablas._
+_Explain how the database works and what relationships exist between the tables._
 
 ```
 Da un ejemplo
