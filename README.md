@@ -6,50 +6,26 @@ _**Mr CarWash & Parking** es una aplicación móvil diseñada para facilitar la 
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+Mira **Despliegue** para conocer como desplegar el proyecto.
 
 
 ### Pre-requisitos 📋
 
 _Que cosas necesitas para instalar el software y como instalarlas_
 
-```
-Da un ejemplo
-```
+- **Node.js**: Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu sistema.
+- **Android Studio** o **Xcode**: Dependiendo si deseas ejecutar la aplicación en Android o iOS.
+- **React Native**: Es necesario para iniciar y gestionar tu proyecto React Native. Puedes instalarlo globalmente con npm.
+- **Git**: Para clonar el repositorio.
 
-### Instalación 🔧
-
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 ## Funcionalidades ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+_Explicar de que forma trabajará la aplicación_
 
 ### Relación de la base de datos 🔩
 
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
+_Explicar cómo funciona la base de datos y qué relaciones existen entre las tablas._
 
 ```
 Da un ejemplo
@@ -57,15 +33,17 @@ Da un ejemplo
 
 ## Despliegue 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+- **Android**: Sigue las instrucciones de _[Android Deployment](https://docs.expo.dev/distribution/building-standalone-apps/)_ para compilar y distribuir la aplicación.
+- **iOS**: Sigue las instrucciones de _[iOS Deployment](https://docs.expo.dev/distribution/building-standalone-apps/)_ para compilar y distribuir la aplicación.
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+_Para la creación de este proyecto se han utilizado las siguientes herramientas_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [React Native](https://reactnative.dev/) - Framework para desarrollo móvil.
+* [Expo](https://expo.dev/) - Plataforma para construir aplicaciones React Native.
+* [Express.js](https://expressjs.com/) - Framework de Node.js para construir el backend.
+* [MySQL](https://www.mysql.com/) - Sistema de gestión de bases de datos utilizado para administrar la base de datos.
 
 ## Contribuyendo 🖇️
 
@@ -83,8 +61,7 @@ Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) 
 
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
-* etc.
+* Comparte este proyecto con otros colegas y amigos que puedan beneficiarse de él 📢
+* Agradecemos cualquier feedback o sugerencia para mejorar Mr CarWash & Parking 🙌
+* Si deseas contribuir al desarrollo continuo, no dudes en contactarnos.
+* ¡Gracias por apoyar nuestro trabajo y ayudarnos a mejorar la experiencia de gestión de estacionamientos y servicios de lavado de autos! 🚗🅿️
