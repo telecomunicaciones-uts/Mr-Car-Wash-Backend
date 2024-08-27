@@ -4,10 +4,6 @@
 
 _**Mr CarWash & Parking** It is a mobile application designed to facilitate the management of parking lots and car wash services. This application allows administrators to optimize the control of their facilities, manage the occupancy of spaces, and coordinate vehicle cleaning services, all from an efficient platform.._
 
-## Funtionalities ⚙️
-
-_Explain how the application will work_
-
 ## Database relationship 🔩
 
 The system is structured to handle various aspects of the business, from customer and vehicle information to the management of parking rates and car wash services. Additionally, it includes the handling of invoices generated for both parking and car wash services, as well as the issuance and tracking of parking entry tickets.
@@ -46,24 +42,6 @@ The tables are interconnected through relationships defined by foreign keys:
 - **Ticket and Clientes:** Parking tickets are linked to the customers who issued them via the "Clientes_Cedula" foreign key.
 
 Overall, this database model provides a robust structure for efficiently managing the operations of a parking and car wash system, allowing for detailed tracking of customer interactions with the services offered.
-
-## Despliegue 📦
-
-- **Android**: Sigue las instrucciones de _[Android Deployment](https://docs.expo.dev/distribution/building-standalone-apps/)_ para compilar y distribuir la aplicación.
-- **iOS**: Sigue las instrucciones de _[iOS Deployment](https://docs.expo.dev/distribution/building-standalone-apps/)_ para compilar y distribuir la aplicación.
-
-## Construido con 🛠️
-
-_Para la creación de este proyecto se han utilizado las siguientes herramientas_
-
-* [React Native](https://reactnative.dev/) - Framework para desarrollo móvil.
-* [Expo](https://expo.dev/) - Plataforma para construir aplicaciones React Native.
-* [Express.js](https://expressjs.com/) - Framework de Node.js para construir el backend.
-* [MySQL](https://www.mysql.com/) - Sistema de gestión de bases de datos utilizado para administrar la base de datos.
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
 
 ## Autores ✒️
