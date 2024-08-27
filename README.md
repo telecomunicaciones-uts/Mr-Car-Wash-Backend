@@ -44,7 +44,7 @@ The tables are interconnected through relationships defined by foreign keys:
 Overall, this database model provides a robust structure for efficiently managing the operations of a parking and car wash system, allowing for detailed tracking of customer interactions with the services offered.
 
 
-## Autores ✒️
+## Developed by ✒️
 
 * **Omar Camacho** - [omgicaqui](https://github.com/omgicaqui)
 * **Juan José Campos** - [jujucamon](https://github.com/jujocamon)
