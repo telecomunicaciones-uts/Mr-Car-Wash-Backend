@@ -53,9 +53,10 @@ Overall, this database model provides a robust structure for efficiently managin
 
 
 
-## Expresiones de Gratitud 🎁
+## Expressions of gratitude 🎁
 
-* Comparte este proyecto con otros colegas y amigos que puedan beneficiarse de él 📢
-* Agradecemos cualquier feedback o sugerencia para mejorar Mr CarWash & Parking 🙌
-* Si deseas contribuir al desarrollo continuo, no dudes en contactarnos.
-* ¡Gracias por apoyar nuestro trabajo y ayudarnos a mejorar la experiencia de gestión de estacionamientos y servicios de lavado de autos! 🚗🅿️
+* Share this project with other colleagues and friends who can benefit from it 📢
+* We appreciate any feedback or suggestions to improve Mr CarWash & Parking 🙌
+* If you would like to contribute to continued development, please do not hesitate to contact us.
+* Thank you for supporting our work and helping us improve the parking management and car wash services experience! 🚗🅿️
+
