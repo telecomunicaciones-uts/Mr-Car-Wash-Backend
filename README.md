@@ -43,6 +43,16 @@ The tables are interconnected through relationships defined by foreign keys:
 
 Overall, this database model provides a robust structure for efficiently managing the operations of a parking and car wash system, allowing for detailed tracking of customer interactions with the services offered.
 
+## GET method routes 🔗
+
+_http://localhost:4000/api/carwash/vehiculo/:placa_
+
+This endpoint allows you to retrieve detailed information about a registered vehicle using its license plate. Replace **:placa** with the vehicle's license plate number to get specific data about that vehicle, such as service history, current status, etc.
+
+_http://localhost:4000/api/carwash/serviciosLavado/nivel/:categoria_
+
+This endpoint allows you to query the list of carwash services offered, filtered by service level or category. Replace :categoria with the service level you want to check, such as "premium" or "basic". This will provide you with the services available in that specific category.
+
 
 ## Developed by ✒️
 
