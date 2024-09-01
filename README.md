@@ -51,7 +51,7 @@ This endpoint allows you to retrieve detailed information about a registered veh
 
 _http://localhost:4000/api/carwash/serviciosLavado/nivel/:categoria_
 
-This endpoint allows you to query the list of carwash services offered, filtered by service level or category. Replace :categoria with the service level you want to check, such as "premium" or "basic". This will provide you with the services available in that specific category.
+This endpoint allows you to query the list of carwash services offered, filtered by service level or category. Replace **:categoria** with the service level you want to check, such as "premium" or "basic". This will provide you with the services available in that specific category.
 
 
 ## Developed by ✒️
