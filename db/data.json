@@ -1,0 +1,247 @@
+{
+  "Clientes": [
+    {
+      "Cedula": 123456,
+      "Nombre": "Juan Perez",
+      "Telefono": "987654321",
+      "Direccion": "Calle Falsa 123"
+    },
+    {
+      "Cedula": 789012,
+      "Nombre": "Maria Gomez",
+      "Telefono": "123456789",
+      "Direccion": "Avenida Siempreviva 742"
+    },
+    {
+      "Cedula": 345678,
+      "Nombre": "Carlos Sanchez",
+      "Telefono": "654321987",
+      "Direccion": "Calle Principal 456"
+    },
+    {
+      "Cedula": 901234,
+      "Nombre": "Laura Martinez",
+      "Telefono": "321654987",
+      "Direccion": "Avenida Central 123"
+    },
+    {
+      "Cedula": 567890,
+      "Nombre": "Luis Rodriguez",
+      "Telefono": "789123456",
+      "Direccion": "Barrio Nuevo 789"
+    }
+  ],
+  "Vehiculos": [
+    {
+      "Placa": "1001",
+      "Marca": "Toyota",
+      "Modelo": 2020,
+      "Color": "Rojo",
+      "Cedula_Cliente": 123456
+    },
+    {
+      "Placa": "1002",
+      "Marca": "Honda",
+      "Modelo": 2019,
+      "Color": "Azul",
+      "Cedula_Cliente": 789012
+    },
+    {
+      "Placa": "1003",
+      "Marca": "Mazda",
+      "Modelo": 2018,
+      "Color": "Negro",
+      "Cedula_Cliente": 345678
+    },
+    {
+      "Placa": "1004",
+      "Marca": "Ford",
+      "Modelo": 2021,
+      "Color": "Blanco",
+      "Cedula_Cliente": 901234
+    },
+    {
+      "Placa": "1005",
+      "Marca": "Chevrolet",
+      "Modelo": 2017,
+      "Color": "Gris",
+      "Cedula_Cliente": 567890
+    }
+  ],
+  "Tarifas_Parking": [
+    {
+      "id": 1,
+      "Tipo_Vehiculo": "Carro",
+      "Hora": 2.0,
+      "Fraccion": 0.5
+    },
+    {
+      "id": 2,
+      "Tipo_Vehiculo": "Moto",
+      "Hora": 1.5,
+      "Fraccion": 0.25
+    },
+    {
+      "id": 3,
+      "Tipo_Vehiculo": "Camioneta",
+      "Hora": 3.0,
+      "Fraccion": 0.75
+    },
+    {
+      "id": 4,
+      "Tipo_Vehiculo": "Bicicleta",
+      "Hora": 0.5,
+      "Fraccion": 0.1
+    },
+    {
+      "id": 5,
+      "Tipo_Vehiculo": "Camión",
+      "Hora": 4.0,
+      "Fraccion": 1.0
+    }
+  ],
+  "Servicios_Car_Wash": [
+    {
+      "id": 1,
+      "Nombre": "Lavado Básico",
+      "Descripcion": "Lavado exterior",
+      "Tarifa": 20.0
+    },
+    {
+      "id": 2,
+      "Nombre": "Lavado Completo",
+      "Descripcion": "Lavado exterior e interior",
+      "Tarifa": 35.0
+    },
+    {
+      "id": 3,
+      "Nombre": "Encerado",
+      "Descripcion": "Encerado completo del vehículo",
+      "Tarifa": 50.0
+    },
+    {
+      "id": 4,
+      "Nombre": "Lavado Interior",
+      "Descripcion": "Limpieza interior profunda",
+      "Tarifa": 30.0
+    },
+    {
+      "id": 5,
+      "Nombre": "Lavado de Motor",
+      "Descripcion": "Limpieza profunda del motor",
+      "Tarifa": 45.0
+    }
+  ],
+  "Vehiculo_Servicios": [
+    {
+      "id": 1,
+      "Placa_Vehiculo": "1001",
+      "Servicio_id": 1,
+      "Fecha_Servicio": "2024-11-03T10:00:00"
+    },
+    {
+      "id": 2,
+      "Placa_Vehiculo": "1002",
+      "Servicio_id": 2,
+      "Fecha_Servicio": "2024-11-03T11:00:00"
+    },
+    {
+      "id": 3,
+      "Placa_Vehiculo": "1003",
+      "Servicio_id": 3,
+      "Fecha_Servicio": "2024-11-03T12:00:00"
+    },
+    {
+      "id": 4,
+      "Placa_Vehiculo": "1004",
+      "Servicio_id": 4,
+      "Fecha_Servicio": "2024-11-03T13:00:00"
+    },
+    {
+      "id": 5,
+      "Placa_Vehiculo": "1005",
+      "Servicio_id": 5,
+      "Fecha_Servicio": "2024-11-03T14:00:00"
+    }
+  ],
+  "Facturas_Car_Wash": [
+    {
+      "id": 1,
+      "Cedula_Cliente": 123456,
+      "Placa_Vehiculo": "1001",
+      "Servicios": [
+        {
+          "Servicio_id": 1,
+          "Nombre": "Lavado Básico",
+          "Tarifa": 20.0
+        }
+      ],
+      "Total": 20.0,
+      "Fecha_Factura": "2024-11-03T10:30:00"
+    },
+    {
+      "id": 2,
+      "Cedula_Cliente": 789012,
+      "Placa_Vehiculo": "1002",
+      "Servicios": [
+        {
+          "Servicio_id": 2,
+          "Nombre": "Lavado Completo",
+          "Tarifa": 35.0
+        }
+      ],
+      "Total": 35.0,
+      "Fecha_Factura": "2024-11-03T11:30:00"
+    }
+  ],
+  "Tickets_Parking": [
+    {
+      "id": 1,
+      "Cedula_Cliente": 123456,
+      "Placa_Vehiculo": "1001",
+      "Hora_Entrada": "2024-11-03T08:00:00"
+    },
+    {
+      "id": 2,
+      "Cedula_Cliente": 789012,
+      "Placa_Vehiculo": "1002",
+      "Hora_Entrada": "2024-11-03T09:00:00"
+    },
+    {
+      "id": 3,
+      "Cedula_Cliente": 345678,
+      "Placa_Vehiculo": "1003",
+      "Hora_Entrada": "2024-11-03T10:00:00"
+    },
+    {
+      "id": 4,
+      "Cedula_Cliente": 901234,
+      "Placa_Vehiculo": "1004",
+      "Hora_Entrada": "2024-11-03T11:00:00"
+    },
+    {
+      "id": 5,
+      "Cedula_Cliente": 567890,
+      "Placa_Vehiculo": "1005",
+      "Hora_Entrada": "2024-11-03T12:00:00"
+    }
+  ],
+  "Facturas_Parking": [
+    {
+      "id": 1,
+      "Ticket_id": 1,
+      "Tarifas_Parking_id": 1,
+      "Hora_Salida": "2024-11-03T10:00:00",
+      "Total": 4.0,
+      "Fecha_Factura": "2024-11-03T10:00:00"
+    },
+    {
+      "id": 2,
+      "Ticket_id": 2,
+      "Tarifas_Parking_id": 2,
+      "Hora_Salida": "2024-11-03T11:00:00",
+      "Total": 3.0,
+      "Fecha_Factura": "2024-11-03T11:00:00"
+    }
+  ]
+}
