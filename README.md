@@ -4,6 +4,9 @@
 
 _**Mr CarWash & Parking** It is a mobile application designed to facilitate the management of parking lots and car wash services. This application allows administrators to optimize the control of their facilities, manage the occupancy of spaces, and coordinate vehicle cleaning services, all from an efficient platform.._
 
+## Final project 📲🚗
+_Video:_
+
 ## Database relationship 🔩
 
 The system is structured to handle various aspects of the business, from customer and vehicle information to the management of parking rates and car wash services. Additionally, it includes the handling of invoices generated for both parking and car wash services, as well as the issuance and tracking of parking entry tickets.
@@ -53,7 +56,7 @@ _http://localhost:4000/api/carwash/serviciosLavado/nivel/:categoria_
 
 This endpoint allows you to query the list of carwash services offered, filtered by service level or category. Replace **:categoria** with the service level you want to check, such as "premium" or "basic". This will provide you with the services available in that specific category.
 
-## Video link 💻
+## Querying API data using GET 💻
 _https://drive.google.com/file/d/1cgxuycbHddXmOafUrjGkxReJadQo5lid/view?usp=sharing_
 
 ## Developed by ✒️
