@@ -5,8 +5,7 @@
 _**Mr CarWash & Parking** It is a mobile application designed to facilitate the management of parking lots and car wash services. This application allows administrators to optimize the control of their facilities, manage the occupancy of spaces, and coordinate vehicle cleaning services, all from an efficient platform.._
 
 ## Final project 📲🚗
-_Video:_
-
+_Video:_ https://youtu.be/pJD2oWQ70GA
 ## Database relationship 🔩
 
 The system is structured to handle various aspects of the business, from customer and vehicle information to the management of parking rates and car wash services. Additionally, it includes the handling of invoices generated for both parking and car wash services, as well as the issuance and tracking of parking entry tickets.
